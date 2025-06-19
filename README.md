@@ -4,7 +4,7 @@ This site showcases my work, skills, certifications, and projects as a Data Scie
 
 
 ## 🔗 Live Site
-[https://faizulshaik.github.io/personal-portfolio/](https://faizulshaik.github.io/personal-portfolio/)
+[https://faiz131.github.io/personal-portfolio/](https://faiz131.github.io/personal-portfolio/)
 
 
 ## Features
