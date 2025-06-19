@@ -4,7 +4,7 @@ This site showcases my work, skills, certifications, and projects as a Data Scie
 
 
 ## 🔗 Live Site
-[https://faiz131.github.io/personal-portfolio/](https://faiz131.github.io/personal-portfolio/)
+[https://faizulgaffar.github.io/personal-portfolio/](https://faizulgaffar.github.io/personal-portfolio/)
 
 
 ## Features
@@ -24,7 +24,7 @@ This site showcases my work, skills, certifications, and projects as a Data Scie
 ## Contact
 - Email: [fyzul1830@gmail.com](mailto:fyzul1830@gmail.com)  
 - LinkedIn: [linkedin.com/in/faizul-shaik](https://www.linkedin.com/in/faizul-shaik131/)  
-- GitHub: [github.com/FaizulShaik](https://github.com/Faiz131/)
+- GitHub: [github.com/FaizulShaik](https://github.com/faizulgaffar/)
 
 
 ## 📢 Note
