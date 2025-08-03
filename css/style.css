@@ -57,6 +57,12 @@ body {
 	font-size: 23px;
 }
 
+#about p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
 .section {
 	padding: 65px 0;
 	scroll-margin-top: 80px;
@@ -66,41 +72,12 @@ body {
 	max-width: 100%;
 }
 
-.skillsSection,
+
 .contactSection {
 	background-color: #e74c3c;
 	color: #fff;
 }
 
-.skill {
-	text-align: center;
-	margin-left: 10px;
-}
-
-.chart {
-	position: relative;
-	width: 152px;
-	height: 152px;
-	display: inline-block;
-	text-align: center;
-}
-
-.chart canvas {
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-
-.chart .percent {
-	color: #000;
-	line-height: 152px;
-	display: inline-block;
-	font-size: 35px;
-}
-
-.chart .percent:after {
-	content: '%';
-}
 
 .squareItem {
 	margin-top: 30px;
@@ -184,8 +161,6 @@ body {
 .contactButton i {
   margin-right: 8px;
 }
-
-
 
 
 .filter a {
@@ -525,3 +500,192 @@ ul.statDetails {
 	}
 }
 
+#education.section {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.educationEntries {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.eduEntry {
+  background: #fff;
+  border-left: 5px solid #e74c3c;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.05);
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  transition: box-shadow 0.3s;
+}
+.eduEntry:hover {
+  box-shadow: 0 4px 16px rgba(44,62,80,0.10);
+}
+.eduEntry h3 {
+  font-size: 19px;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: unset;
+}
+.eduInstitution {
+  display: block;
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.eduDetails {
+  display: block;
+  font-size: 15px;
+  color: #555;
+}
+
+.about-resume-section .contactButton {
+    color: black;                
+    background: transparent;     
+    border: 2px solid red; /* Always red border initially */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.about-resume-section .contactButton:hover,
+.about-resume-section .contactButton:focus {
+    color: red;                  
+    background: white;           
+    border-color: red;           
+}
+
+.about-resume-section .contactButton:active {
+    color: black;
+    background: white;
+    border-color: black;
+}
+
+.skillsSection {
+  background-color: #e74c3c;
+  color: white;
+  padding: 60px 0;
+}
+
+.skillsSection h2 {
+  margin-bottom: 10px;
+}
+
+.skillsSection p {
+  color: #fdd;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.skill-card:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.skill-card i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.skill-card h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.skill-tag {
+  background: white;
+  color: #e74c3c;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease, transform 0.2s ease;
+}
+
+.skill-tag:hover {
+  background: #ddd;
+  transform: scale(1.05);
+}
+
+.statsSection .squareInnerContainer {
+  padding: 40px 20px 25px;
+  min-height: auto;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.statsSection .squareInnerContainer:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.statsSection .squareIcon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.statsSection .squareContent h2 {
+  font-size: 42px;
+  color: #e74c3c;
+  margin-bottom: 6px;
+}
+
+.statsSection .squareContent h3 {
+  font-size: 16px;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+.statsSection .statDetails {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 18px;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.statsSection .statDetails li {
+  margin-bottom: 5px;
+}
+
+.statsSection .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statsSection .squareItem {
+  flex: 1 1 33.333%;
+  display: flex;
+}
+
+.statsSection .squareInnerContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.statsSection {
+  padding-bottom: 30px;
+}
+#portfolio .heading h2 {
+  color: #e74c3c;
+}
+#education .heading h2 {
+  color: #e74c3c;
+}
