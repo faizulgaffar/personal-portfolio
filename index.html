@@ -17,6 +17,9 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
@@ -65,277 +68,221 @@
 	</div>
 
 	<nav id="navigation" class="navbar navbar-expand-lg">
-		
-		<div class="container-fluid">
+  		<div class="container-fluid">
 
 		    <a class="navbar-brand" href="#">Faizul Shaik</a>
 
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		      
 		      <span class="navbar-toggler-icon"><div></div></span>
-		    
 		    </button>
 		    
 		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    
-		     	<div class="navbar-nav">
-		    
-		        	<a class="nav-link active" aria-current="page" href="#about">About</a>
-		    
-		        	<a class="nav-link" href="#skills">Skills</a>
-			
-			        <a class="nav-link" href="#stats">Stats</a>
-
-			        <a class="nav-link" href="#portfolio">Portfolio</a>
-
-			        <a class="nav-link" href="#contact">Contact</a>		    
-
-		      	</div>
-		    
+		      <div class="navbar-nav">
+		        <a class="nav-link active" aria-current="page" href="#about">About</a>
+				    <a class="nav-link" href="#education">Education</a>
+		        <a class="nav-link" href="#skills">Skills</a>
+		        <a class="nav-link" href="#stats">Stats</a>
+		        <a class="nav-link" href="#portfolio">Portfolio</a>
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </div>
 		    </div>
-	 	
-	 	</div>
-
+		 </div>
 	</nav>
 
 
-	<div id="about" class="section">
 
-		<div class="container">
-			
-			<div class="row">
+<div id="about" class="section">
+  <div class="container">
+    <div class="row">
 
-				<div class="col-md-5">
-					<img class="aboutImage" src="img/about.jpg">
-				</div>
+      <div class="col-md-5">
+        <img class="aboutImage" src="img/about.jpg" alt="About Me Image">
+      </div>
 
-				<div class="col-md-7">
+      <div class="col-md-7">
+        <h4>ABOUT ME</h4>
+        <p>Hi there! I’m Faizul Shaik, currently pursuing Computer Science and Engineering - Data Science at GITAM Deemed To Be University, Bangalore. My journey into the world of data began with a deep curiosity about how information can be transformed into insights that drive impactful decisions.</p>
+        <p>Over time, I have developed a solid foundation in core technical skills, including Python, SQL, Microsoft Excel, and data visualization tool such as Power BI. I also have hands-on experience in machine learning, working with both supervised and unsupervised techniques such as regression, classification, clustering, and deep learning. To strengthen my knowledge further, I have completed certifications in Python, SQL, Machine Learning, Deep Learning, and Microsoft Excel through platforms like Udemy and Coursera.</p>
+        <p>I’m passionate about solving real-world problems through data-driven solutions and aspire to work on projects that create a meaningful impact. My goal is to continually grow as a data professional, explore innovative approaches, and contribute to the advancement of technology in the field of data science.</p>
 
-					<h4>About Me</h4>
+        <div class="about-resume-section text-center" style="margin-top: 30px;">
+          <p class="subHeading">Want to know more about my experience?</p>
+          <a href="Shaik_Faizul_Gaffar_Resume.pdf" target="_blank" class="contactButton">
+            <i class="fas fa-eye"></i> View Resume
+          </a>
+        </div>
 
-					<p>Hi there! I am Faizul Shaik, and I am pursuing Data Science at GITAM Deemed University, Bangalore. My journey into the world of data began with a deep curiosity about how data can unlock insights and drive impactful decisions.</p>
-					<p>Over time, I have developed a solid foundation in core technical skills, including Python, SQL, Microsoft Excel, and data visualization tools such as Tableau and Power BI. I also have hands-on experience in machine learning, working with both supervised and unsupervised techniques such as regression, classification, clustering, and deep learning. To strengthen my knowledge further, I have completed certifications in Python, SQL, Machine Learning, Deep Learning, and Microsoft Excel through platforms like Udemy and Coursera.</p>
+      </div>
 
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
-
-
-	<div id="skills" class="skillsSection section">
-
-		<div class="container">
-			
-			<div class="row">
-
-				<div class="col-md-12 text-center">
-					<h2>TECHNICAL SKILLS</h2>
-					<p>A representation of my proficiency in each skill</p>
-				</div>
+    </div>
+  </div>
+</div>
 
 
-				<div class="owl-carousel owl-theme">
+<section id="education" class="section">
+  <div class="heading">
+    <h2>EDUCATION</h2>
+  </div>
+  <div class="educationEntries">
+    <!-- Example Entries -->
+    <div class="eduEntry">
+      <h3>Bachelor of Technology, Computer Science and Engineering - Data Science</h3>
+      <span class="eduInstitution">GITAM Deemed To Be University, Bengaluru</span>
+      <span class="eduDetails">CGPA: 9.43 (up to 6th Semester)</span>
+    </div>
+    <div class="eduEntry">
+      <h3>Intermediate - XIth, XIIth Standard, PCM</h3>
+      <span class="eduInstitution">Kadapa, Andhra Pradesh</span>
+      <span class="eduDetails">Percentage: 94.8%</span>
+    </div>
+    <div class="eduEntry">
+      <h3>SSC - Xth Standard</h3>
+      <span class="eduInstitution">Kadapa, Andhra Pradesh</span>
+      <span class="eduDetails">Percentage: 100%</span>
+    </div>
+  </div>
+</section>
 
-				    <div class="skill">
-				    	<span class="chart" data-percent="90">
-				    		<span class="percent">90</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>Python</h4>
-				    	<p>Used in most of my projects</p>
-				    </div>
 
-				    <div class="skill">
-				    	<span class="chart" data-percent="80">
-				    		<span class="percent">80</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>SQL</h4>
-				    	<p>Used in most of my projects</p>
-				    </div>
+<div id="skills" class="skillsSection section">
+  <div class="container">
+    <div class="row text-center mb-4" data-aos="fade-up">
+      <h2>TECHNICAL SKILLS & STATS</h2>
+      <p>Key areas of data expertise and tools</p>
+    </div>
 
-				    <div class="skill">
-				    	<span class="chart" data-percent="70">
-				    		<span class="percent">70</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>Machine Learning</h4>
-				    	<p>Used in most of my projects</p>
-				    </div>
+    <div class="row g-4">
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="skill-card">
+          <i class="fas fa-code"></i>
+          <h4>Programming & Query Languages</h4>
+          <div class="skill-tags">
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="200">Python</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="300">SQL</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="400">R</span>
+          </div>
+        </div>
+      </div>
 
-				    <div class="skill">
-				    	<span class="chart" data-percent="60">
-				    		<span class="percent">60</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>Neural Networks</h4>
-				    	<p>Used in most of my projects</p>
-				    </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h4>Data Tools & Frameworks</h4>
+          <div class="skill-tags">
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="200">Pandas</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="250">Numpy</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="300">Seaborn</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="350">Scikit-learn</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="400">TensorFlow</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="450">Power BI</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="500">Excel</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="550">Git</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="600">Jupyter Notebook</span>
+          </div>
+        </div>
+      </div>
 
-				    <div class="skill">
-				    	<span class="chart" data-percent="40">
-				    		<span class="percent">40</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>Data Structures</h4>
-				    	<p>Used in some of my projects</p>
-				    </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+        <div class="skill-card">
+          <i class="fas fa-robot"></i>
+          <h4>Machine Learning & AI</h4>
+          <div class="skill-tags">
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="200">Supervised Learning</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="250">Unsupervised Learning</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="300">Regression</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="350">Classification</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="400">Clustering</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="450">Deep Learning</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="500">Neural Networks</span>
+          </div>
+        </div>
+      </div>
 
-				    <div class="skill">
-				    	<span class="chart" data-percent="70">
-				    		<span class="percent">70</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>Statistics</h4>
-				    	<p>Used in most of my projects</p>
-				    </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="400">
+        <div class="skill-card">
+          <i class="fas fa-lightbulb"></i>
+          <h4>Others</h4>
+          <div class="skill-tags">
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="200">Data Structures & Algorithms</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="300">Probability</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="350">Statistics</span>
+						<span class="skill-tag" data-aos="fade-up" data-aos-delay="550">Exploratory Data Analysis</span>
+            <span class="skill-tag" data-aos="fade-up" data-aos-delay="550">PySpark</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-				    <div class="skill">
-				    	<span class="chart" data-percent="60">
-				    		<span class="percent">60</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>R</h4>
-				    	<p>Used for Data-Visualization</p>
-				    </div>
 
-				    <div class="skill">
-				    	<span class="chart" data-percent="60">
-				    		<span class="percent">60</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>Microsoft Excel</h4>
-				    	<p>Used in most of my projects</p>
-				    </div>
 
-				</div>
-
-				
-
-			</div>
-
-		</div>
-
-	</div>
 
 
 	<div id="stats" class="statsSection section">
+  <div class="container">
+    <div class="row">
 
-		<div class="container">
-			
-			<div class="row">
+      <!-- Projects -->
+      <div class="squareItem col-md-4 col-sm-6">
+        <div class="squareInnerContainer">
+          <div class="squareIcon">
+            <i class="fa-solid fa-diagram-project"></i>
+          </div>
+          <div class="squareContent">
+            <h2 class="counter">4</h2>
+            <h3>Projects</h3>
+            <ul class="statDetails">
+              <li>EDA of Google Play Store Apps</li>
+              <li>Sentiment Analysis using ML</li>
+              <li>Urban Heat Island Analysis Of Mysore</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-				<div class="col-md-3 col-sm-6">
+      <!-- Certifications -->
+      <div class="squareItem col-md-4 col-sm-6">
+        <div class="squareInnerContainer">
+          <div class="squareIcon">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div class="squareContent">
+            <h2 class="counter">8</h2>
+            <h3>Certifications</h3>
+            <ul class="statDetails">
+              <li>Introduction to Deep Learning & Neural Networks with Keras - IBM</li>
+              <li>What is Data Science? - Coursera, etc.</li>
+              <li>Certificate of Merit – Aptitude & Programming Test Series, Sanfoundry Company Readiness</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-					<div class="squareItem">
+      <!-- Internships -->
+      <div class="squareItem col-md-4 col-sm-6">
+        <div class="squareInnerContainer">
+          <div class="squareIcon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="squareContent">
+            <h2 class="counter">1</h2>
+            <h3>Internships</h3>
+            <ul class="statDetails">
+              <li>
+                Geo-Spatial Data Science Intern, Murthy Lab – GITAM University, Bengaluru
+                <br>
+                <small><em>Jan 2025 – Mar 2025</em></small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-						<div class="squareInnerContainer">
+    </div>
+  </div>
+</div>
 
-							<div class="squareIcon">
-								<i class="fa-solid fa-diagram-project"></i>
-							</div>
-
-							<div class="squareContent">
-								<h2 class="counter">4</h2>
-								<h3>Projects</h3>
-								<ul class="statDetails">
-									<li>EDA of Google Play Store Apps</li>
-									<li>Sentiment Analysis using ML</li>
-									<li>Urban Heat Island Analysis Of Mysore</li>
-								</ul>
-							</div>
-
-
-						</div>
-
-					</div>
-					
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-
-					<div class="squareItem">
-
-						<div class="squareInnerContainer">
-
-							<div class="squareIcon">
-								<i class="fa-solid fa-certificate"></i>
-							</div>
-
-							<div class="squareContent">
-								<h2 class="counter">8</h2>
-								<h3>Certifications</h3>
-								<ul class="statDetails">
-									<li>Introduction to Deep Learning & Neural Networks with Keras - IBM</li>
-									<li>What is Data Science? - Coursera, etc.</li>
-								</ul>
-							</div>
-
-						</div>
-
-					</div>
-					
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-
-					<div class="squareItem">
-
-						<div class="squareInnerContainer">
-
-							<div class="squareIcon">
-								<i class="fa-solid fa-screwdriver-wrench"></i>
-							</div>
-
-							<div class="squareContent">
-								<h2 class="counter">7</h2>
-								<h3>Tools Used</h3>
-								<p class="statDetails">Git, TensorFlow, Scikit-learn, Numpy, Pandas, Seaborn, Excel</p>
-							</div>
-
-
-
-						</div>
-
-					</div>
-					
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-
-					<div class="squareItem">
-
-						<div class="squareInnerContainer">
-
-							<div class="squareIcon">
-								<i class="fa-solid fa-laptop-code"></i>
-							</div>
-
-							<div class="squareContent">
-								<h2 class="counter">1</h2>
-								<h3>Internships</h3>
-								<ul class="statDetails">
-									<li>
-										Geo-Spatial Data Science Intern, Murthy Lab – GITAM University, Bengaluru<br>
-										<small><em>Jan 2025 – Mar 2025</em></small>
-									</li>
-								</ul>
-							</div>
-
-						</div>
-
-					</div>
-					
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
 
 
 	<div id="portfolio" class="section">
@@ -504,6 +451,9 @@
 
 	
 
+
+
+
 	<div id="contact" class="contactSection section">
 		<div class="col-md-12 text-center">
 			<p class="subHeading">Think we’d be a good fit?</p>
@@ -553,6 +503,15 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,  // Animation speed
+    once: true      // Animate only once
+  });
+</script>
+
 
 
 	<script src="js/script.js"></script>
